@@ -1,0 +1,103 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin-bottom: 35px;
+}
+form {
+  display: inline-block;
+}
+.form {
+  margin-top: 84px;
+  text-align: center;
+}
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+.btn {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7af84;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.5s;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.btn:hover {
+  color: rgb(13, 160, 228);
+  background-color: white;
+}
+.answerblock {
+ margin-left: 20px;
+ border-left: 8px solid rgb(128, 128, 128);
+ padding-left: 10px;
+ font-family: 'Roboto', sans-serif;
+ background-color: #f4ffd4;
+ padding: 1px;
+ margin-bottom: 10px;
+ padding-left: 12px;
+ transition: all 0.5s;
+}
+.answerblock:hover {
+  padding: 30px;
+}
+.respblock {
+  margin-left: 20px;
+  border-left: 8px solid rgb(128, 128, 128);
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4ffd4;
+  padding: 1px;
+  padding-left: 12px;
+  transition: all 0.5s;
+}
+.respblock:hover {
+  padding: 30px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  border: 2px solid rgb(128, 128, 128);
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(128, 128, 128);
+  font-size: 15px;
+  transition: all 0.5s;
+}
+a:hover {
+  color: rgba(29, 29, 29, 0.726);
+  border: 2px solid   rgba(29, 29, 29, 0.726);
+  font-weight: 700;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.897);
+}
+h3 {
+  font-weight: 400;
+  font-size: 15px;
+}
+.respons{
+  font-weight: 700;
+}
+body {
+  background-image: url("https://i.stack.imgur.com/5uvJN.png");
+  background-size: cover;
+}
